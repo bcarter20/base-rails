@@ -1,0 +1,20 @@
+!!! 5
+%html
+  %head
+    %title Base
+    = stylesheet_link_tag    "application"
+    = javascript_include_tag "application"
+    = csrf_meta_tags
+
+  %body
+
+    #container
+
+      #banner
+
+      #nav
+
+      #content
+        = yield
+
+      #footer
